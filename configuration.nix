@@ -73,6 +73,8 @@ in
     htop
     btop
     curl
+    tree # shows directory trees
+    ncdu # interactive disk-usage
   ];
 
   system.stateVersion = "26.05";
