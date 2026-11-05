@@ -46,6 +46,7 @@ in
     hashedPassword = "REMOVED";
     openssh.authorizedKeys.keys = [ sshKey ];
   };
+  users.mutableUsers = false;
   security.sudo.wheelNeedsPassword = false;
 
 
