@@ -8,7 +8,7 @@ in
     (modulesPath + "/profiles/qemu-guest.nix")
     ./disko.nix
     ./hardware-configuration.nix
-    ./caddy.nix
+    ../../services/caddy.nix
   ];
 
   # ── Boot ──────────────────────────────────────────────
