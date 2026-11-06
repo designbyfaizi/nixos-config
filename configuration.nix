@@ -44,7 +44,7 @@ in
   users.users.khakcsar = {
     isNormalUser = true;
     extraGroups = [ "wheel" ];
-    hashedPassword = "REMOVED";
+    hashedPasswordFile = "/var/lib/secrets/khakcsar-password-hash";
     openssh.authorizedKeys.keys = [ sshKey ];
   };
   users.mutableUsers = false;
